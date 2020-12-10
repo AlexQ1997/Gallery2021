@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Michroma&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body class="flex justify-center items-center h-full">
+    <div class="mt-2 title">
+      <h1
+        class="title_text text-center text-6xl p-6 font-medium tracking-widest animate__animated animate__fadeInDown"
+      >
+        Hello there.
+      </h1>
+      <div class="img_div flex justify-center">
+        <img
+          class="hero_img w-5/12 animate__animated animate__fadeInLeft animate__delay-2s"
+          src="/images/cover-img.jpg"
+          alt=""
+        />
+      </div>
+      <div class="about__box flex justify-center">
+        <p
+          class="about__text text-center pt-10 w-5/12 mb-20 animate__animated animate__fadeInUp animate__delay-3s"
+        >
+          "My name is Alejandro, im based out of Arkansas. I like to travel and
+          take badass photos. Enjoy my black and white collection"
+        </p>
+      </div>
+
+      <main>
+        <header class="">
+          <!-- <h1
+            class="text-center pt-16 text-6xl mt-6 tracking-widest font-extrabold"
+          >
+            Gallery
+          </h1> -->
+          <nav class="text-center p-10 font-semibold text-lg">
+            <a class="mr-6" href="/index.html">BNW</a>
+            <a class="mr-6" href="/color.html">Color</a>
+            <a href="/wedding.html">Weddings</a>
+          </nav>
+        </header>
+
+        <section class="images flex justify-center flex-wrap text-center mb-5">
+          <img class="w-1/4" src="images/bnw-ver3.jpg" alt="" />
+          <img class="w-3/5" src="images/hor-1.jpg" alt="" />
+          <img class="w-3/5" src="images/hor-2.jpg" alt="" />
+          <img class="w-1/4" src="images/bnw-ver2.jpg" alt="" />
+          <img class="w-1/4" src="images/bnw-ver1.jpg" alt="" />
+          <img class="w-3/5" src="images/hor-3.jpg" alt="" />
+        </section>
+      </main>
+      <footer class="text-center p-10">
+        <h1 class="text-4xl p-4 font-medium tracking-widest">Get in touch</h1>
+        <p class="p-2">alex.quintanilla2015@gmail.com</p>
+        <p>479 / 567 / 6233</p>
+      </footer>
+    </div>
+  </body>
+</html>

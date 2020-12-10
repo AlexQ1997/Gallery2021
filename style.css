@@ -1,0 +1,21 @@
+img {
+  margin: 5px;
+}
+
+.title .title_text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  animation-duration: 1.8s;
+}
+.about__box .about__text {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  animation-duration: 1.8s;
+}
+.img_div img {
+  animation-duration: 2.5s;
+}
+footer p {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
